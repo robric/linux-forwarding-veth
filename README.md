@@ -174,17 +174,3 @@ root@ubuntu-ns:~# ip route
 172.30.30.0/24 dev veth-ns1-pod proto kernel scope link src 172.30.30.11 
 root@ubuntu-ns:~# 
 ```
-
-
-
-
-
-After this step, ARP is solved and 
-
-
-
-
-
-
-
-
