@@ -1,4 +1,5 @@
-# linux-forwarding-veth
+# Test of pseudo-bridges in Linux to enforce pod to pod connectivity over in a same subnet (aka contrail l3-only model)
+
 Investigation on linux native forwarding for inter-pod routing based on proxy-arp (aka pseudo-bridges).
 
 ## l3-only forwarding 
