@@ -1,6 +1,6 @@
-# Test of pseudo-bridges in Linux to enforce pod to pod connectivity over in a same subnet (aka contrail l3-only model)
+# Linux Pseudo-bridges Testings 
 
-Investigation on linux native forwarding for inter-pod routing based on proxy-arp (aka pseudo-bridges).
+Investigation on linux native forwarding for inter-pod routing based on proxy-arp (aka pseudo-bridges). This model is close to the  l3-only Virtual Network model in Contrail.
 
 ## l3-only forwarding 
 
