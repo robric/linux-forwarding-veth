@@ -156,9 +156,7 @@ PING 172.30.30.12 (172.30.30.12) 56(84) bytes of data.
 
 ### In another terminal, enter the network namespace and execute few commands.
 
-root@ubuntu-ns:~# pgrep ping
-2911
-root@ubuntu-ns:~# nsenter -n -t 2911
+root@ubuntu-ns:~# nsenter -n -t  $(pgrep ping)
 root@ubuntu-ns:~# ip addr
 Object "addrs" is unknown, try "ip help".
 root@ubuntu-ns:~# ip addr
