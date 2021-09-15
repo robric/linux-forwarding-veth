@@ -1,6 +1,6 @@
 # Linux Pseudo-bridges Testings 
 
-Investigation on linux native forwarding for inter-pod routing based on proxy-arp (aka pseudo-bridges). This model is close to the  l3-only Virtual Network model in Contrail.
+Investigation on linux native forwarding for inter-pod routing based on proxy-arp (aka pseudo-bridges). This model is close to the  l3-only Virtual Network model in Contrail. The goal of these testings is to derive the logic to our next generation CNI for native kernel forwarding.
 
 ## l3-only forwarding 
 
