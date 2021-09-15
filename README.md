@@ -4,7 +4,7 @@ Investigation on linux native forwarding for inter-pod routing based on proxy-ar
 
 ## l3-only forwarding 
 
-This networking is modelled as a collection of point-to-point links and /32 routing. It is known as the contrial l3-only forwarding mode. All forwarding between pods is based on L3 for workloads in a same subnet instead of MAC lookup.
+This networking is modelled as a collection of point-to-point links and /32 routing. In Contrail, it was known as the l3-only forwarding mode. In this case, all forwarding between pods is based on L3 lookup for workloads in a same subnet instead of L2 DMAC lookup.
 
 ![image](https://user-images.githubusercontent.com/21667569/133283626-9e700329-7652-48da-b849-7539384dec28.png)
 
